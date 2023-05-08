@@ -1,0 +1,29 @@
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider div{
+    height: 250px;
+}
+
+.slider div img{
+    display: none;
+    max-width: 400px;
+    height: 200px;
+}
+
+.slider div .activeImg{
+    display: block;
+}
+
+.butt{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.but-1{
+    margin-right: 5px;
+}
+
